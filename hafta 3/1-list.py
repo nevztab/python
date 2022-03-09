@@ -1,4 +1,4 @@
-'''
+
 ad="nevzat"
 soyad="ulaş"
 
@@ -11,6 +11,9 @@ print(len(oyunlar)) #liste eleman sayısı
 print(oyunlar[1]) #2. elemanı yazdırma
 print(oyunlar[:2]) #3. elemana kadar yazdırma
 
+
+
+
 #----------------------METODLAR----------------------#
 
 print(oyunlar.append("minecraft")) #listeye eleman ekleme
@@ -20,13 +23,22 @@ print(oyunlar.pop(0)) #sıra numarası ile eleman silme
 print(oyunlar.clear()) #listeyi temizleme
 del oyunlar #listeyi silme
 
+
+
 üyeler=["ahmet","mehmet","ali","veli","hasan"]
 print(üyeler.sort()) #A'dan z'ye sıralama
 print(üyeler.reverse()) #tersine çevirme
 
-'''
 
-'''
+
+oyunlar=["pes 2013","gta vice city","cs 1.6"] 
+üyeler=["ahmet","mehmet","ali","veli","hasan"]
+
+print(oyunlar+üyeler) #2 listeyi birleştirme
+print(oyunlar.extend(üyeler)) #listeyi genişletme
+
+
+
 #----------------------İNPUT----------------------#
 def sorgu():
     bilgi=input("Adını soyadını ve yaşını öğrenebilirmiyim:\n").split()
@@ -41,9 +53,5 @@ def sorgu():
 
 sorgu()
 
-'''
 
-oyunlar=["pes 2013","gta vice city","cs 1.6"] 
-üyeler=["ahmet","mehmet","ali","veli","hasan"]
 
-print(oyunlar+üyeler)
