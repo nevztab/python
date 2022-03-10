@@ -7,7 +7,7 @@ sozluk={
 #-----------------metods-----------------#
 sozluk.get('yil') 
 sozluk['bmw'] 
-sozluk.keys ()
+sozluk.keys()
 sozluk.values()
 sozluk.items()
 sozluk.pop('togg')
