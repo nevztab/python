@@ -1,22 +1,16 @@
-
 sozluk={
-
-'bmw': 'almanya', 'togg' : 'türkiye',
-
+'bmw': 'almanya ',
+'togg' : 'türkiye',
 'yil': 1000
-
 }
 
-#elemanlar erişim sonuc=sozluk.get('yil')
-
-sonuc=sozluk['bmw'] sonuc=sozluk.keys ()
-
-sonuc=sozluk.values() sonuc-sozluk.items()
-
-print (sonuc)
-
+#-----------------metods-----------------#
+sozluk.get('yil') 
+sozluk['bmw'] 
+sozluk.keys ()
+sozluk.values()
+sozluk.items()
 sozluk.pop('togg')
-
 sozluk.popitem() 
 sozluk.clear() 
 del sozluk['yil'] 
