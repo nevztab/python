@@ -1,38 +1,10 @@
-#Sets
+oyunlar={'Valorant', 'Pubg', 'Cs Go', 'Mortal Combat'}
+cikisTarihleri=[1990, 2000, 2010]
 
-61
+oyunlar.add('Pes 13') #ilk indexe ekle
+oyunlar.update(cikisTarihleri) #set i cikisTarihleri listesi ekleyerek güncelle
+oyunlar.remove(1995) #eleman siler. bulamazsa uyarı verir
+oyunlar.discard (1995) #eleman siler. bulamazsa uyarı vermez
+oyunlar.clear() #set listesinin içini boşalt
 
-oyunlarYeni-('Valorant', 'Pubg', 'Cs Go', 'Mortal Combat'}
-
-62
-
-cikistarihleri-[1990, 2000, 2010]
-
-oyunlarYeni.add('Pes 13') #ilk indexe ekle
-
-
-
-
-
-oyunlarYeni.update (cikisTarihleri) #set i cikisTarihleri listesi ekleyerek güncelle
-
-
-
-
-
-#oyunlarYeni.remove(1995)
-
-#eleman siler. bulamazsa uyarı verir
-
-oyunlarYeni.discard (1995)
-
-oyunlarYeni.clear()
-
-#eleman siler. bulamazsa uyarı vermez
-
-#set listesinin içini boşalt
-
-
-
-
-print (oyunlarYeni)
+print (oyunlar)
