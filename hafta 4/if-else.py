@@ -24,7 +24,7 @@ else:
     print (f'{a} denktir {b} ye')
 
 
-username='aliozbek
+username='aliozbek'
 
 password='123'
 
@@ -36,4 +36,4 @@ if (username==inputusername) and (password==inputpassword):
 
 else:
 
- print kullanıcı adı veya şifre yanlış')
+ print ('kullanıcı adı veya şifre yanlış')
