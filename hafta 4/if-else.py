@@ -22,3 +22,18 @@ elif a<b:
 
 else:
     print (f'{a} denktir {b} ye')
+
+
+username='aliozbek
+
+password='123'
+
+inputusername=input('kullanıcı adı: ') 
+inputpassword=input('şifreniz: ')
+
+if (username==inputusername) and (password==inputpassword): 
+ print('giriş başarılı')
+
+else:
+
+ print kullanıcı adı veya şifre yanlış')
