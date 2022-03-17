@@ -12,20 +12,20 @@ for eleman in listem: #listedeki elemanları 2 ile çarparak yaz
     print (eleman*2)
 
 
-for sayi in range (50,100): 
+for sayi in range (50,100): #50 den 100 e kadar tek/çift yazdırma
 
     if sayi%2==0: 
         print (f'çift {sayi}') 
 
     elif sayi%2==1: 
         print (f' tek {sayi}')
-        
+
 
 
 toplam=0
 sayilar=[13,15,45,4,50]
 
-for i in sayilar: 
-    toplam-toplam+i
+for i in sayilar: #toplam değ,erini eski toplam değerine listenin elamnlarını sırayla ekleme
+    toplam=toplam+i
 
 print(toplam)
