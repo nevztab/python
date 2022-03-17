@@ -30,11 +30,11 @@ for i in sayilar: #toplam değ,erini eski toplam değerine listenin elamnların�
 
 print(toplam)
 
-for i in sayilar 
- if i>10:
-    print(i)
+for i in sayilar:
+    if i>10:
+        print(i)
 
 arkadaslar=list(('fatmanur', 'ayşe', 'hakan'))
- 
 for i in arkadaslar:
-   if (len(i)>5): print (i)
+   if (len(i)>5):
+       print (i)
