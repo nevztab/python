@@ -3,9 +3,10 @@ import random
 
 puan=[100,100,100,100,100]
 yapma=0
+sayi=0
 
 
-def bul(a,puan,yapma):
+def bul(a,puan,yapma,sayi):
     if a==True:   
         if yapma==0:
             sayi=random.randint(1,10)
@@ -33,31 +34,30 @@ def bul(a,puan,yapma):
     if sayi>tahmin:
         puan[yapma]=puan[yapma]-5
         print("Yukarı")
-        bul(False,puan,yapma)
+        bul(False,puan,yapma,sayi)
 
     if sayi<tahmin:
         puan[yapma]=puan[yapma]-5
         print("Aşşağı")
-        bul(False,puan,yapma)
+        bul(False,puan,yapma,sayi)
 
     if sayi==tahmin:
         buldun(yapma)
 
-    deneme=deneme+1
     a=False
 
 def buldun(yapma):
     yapma=yapma+1
     if yapma==5:
-        puanort=(puan[0]+puan[1]+puan[2]+puan[3]+puan[4])/5
-        if puan<0:
+        puanort=int((puan[0]+puan[1]+puan[2]+puan[3]+puan[4])/5)
+        if puanort<0:
             print("Kaybettiniz")
         else:
-            print(f"Tebrikler, ortalama {puanort} aldınız")
+            print(f"Tebrikler, 100/{puanort} puan aldınız")
 
 
     if yapma!=5:
         print("Tebrikler bir sonraki aşamaya geçtin")
-        bul(True,puan,yapma)
+        bul(True,puan,yapma,sayi)
     
-bul(True,puan,yapma)
+bul(True,puan,yapma,sayi)
