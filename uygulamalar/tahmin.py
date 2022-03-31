@@ -32,12 +32,12 @@ def bul(a,puan,yapma,sayi):
         tahmin=int(input("Tekrar sayı girin: "))
 
     if sayi>tahmin:
-        puan[yapma]=puan[yapma]-5
+        puan[yapma]=puan[yapma]-10
         print("Yukarı")
         bul(False,puan,yapma,sayi)
 
     if sayi<tahmin:
-        puan[yapma]=puan[yapma]-5
+        puan[yapma]=puan[yapma]-10
         print("Aşşağı")
         bul(False,puan,yapma,sayi)
 
